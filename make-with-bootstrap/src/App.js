@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Html from './Components/Html';
+import Html from './Html';
 
 function App() {
   return (
     <div className="App">
-      <Html />
+      <Html></Html>
     </div>
   );
 }
