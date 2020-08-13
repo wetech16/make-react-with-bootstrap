@@ -2,6 +2,33 @@ import React from 'react'
 import Portfolio from './components/Portfolio'
 
 export default function Html () {
+    const portfolioItems = [ 
+        {
+            title: 'Threads',
+            caption: 'Illustration'
+          },
+          {
+            title: 'Explore',
+            caption: 'Graphic Design'
+          },
+          {
+            title: 'Finish',
+            caption: 'Identity'
+          },
+          {
+            title: 'Lines',
+            caption: 'Branding'
+          },
+          {
+            title: 'Southwest',
+            caption: 'Website Design'
+          },
+          {
+            title: 'Window',
+            caption: 'Photography'
+          },
+     
+    ]
     return (
         <div>
     {/* // import all content of index.html here and edit */}
@@ -67,7 +94,7 @@ export default function Html () {
                 </div>
             </div>
         </section>
-        <Portfolio />
+        <Portfolio portfolioItems={portfolioItems}/>
         {/* // <!-- About--> */}
         <section class="page-section" id="about">
             <div class="container">
