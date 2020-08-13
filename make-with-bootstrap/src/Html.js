@@ -170,7 +170,7 @@ export default function Html () {
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src={require('./assets/img/about/1.jpg')} alt="" /> </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2009-2011</h4>
@@ -180,7 +180,7 @@ export default function Html () {
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src={require('./assets/img/about/2.jpg')} alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>March 2011</h4>
